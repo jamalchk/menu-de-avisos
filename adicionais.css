@@ -1,0 +1,48 @@
+.botao-avisos {
+    width: 56px;
+    height: 48px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: 18px;
+    color: var(--cor-branca);
+}
+
+.botao-avisos_aberto {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu-avisos {
+    box-shadow: -4px 0px 10px rgba(0,0,0,0.16);
+    background-color: #052742;
+    overflow-y: auto;
+    height: calc(100vh - 48px);
+    width: 360px;
+    z-index: 3;
+    padding: 40px 24px 64px;
+    position: fixed;
+    right: 0;
+    transition: 0.4s;
+}
+
+.menu-avisos_minimizado {
+    right: -400px;
+}
+
+.menu-avisos__lista li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.texto-cor-cinza-10 {
+    color: var(--cor-cinza-10) !important;
+}
+
+.menu-avisos__cartao {
+    padding: 16px;
+}
+
