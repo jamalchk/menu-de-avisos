@@ -17,6 +17,17 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.botao-avisos_avisos-novos::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;  
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    left: 34px;
+}
+
 .menu-avisos {
     box-shadow: -4px 0px 10px rgba(0,0,0,0.16);
     background-color: #052742;
